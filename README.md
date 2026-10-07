@@ -2,7 +2,12 @@
 
 Комплексное кроссплатформенное решение для водителей такси и курьеров: быстрый учет смен, расчет комиссии сервиса/парка, общей выручки и дохода **«на руки»**, с разделением по способам оплаты (наличные и банковская карта).
 
-Проект включает в себя:
+> ### 📱 Репозитории всей экосистемы проекта:
+> - 🍏 **iOS-приложение (SwiftUI, Xcode — текущий репозиторий):** [https://github.com/moregenious/test_driver_for_ios](https://github.com/moregenious/test_driver_for_ios)
+> - 🌐 **Web & REST API:** [https://github.com/moregenious/test_driver_web](https://github.com/moregenious/test_driver_web)
+> - 🤖 **Android-приложение (Kotlin, Android Studio):** [https://github.com/moregenious/Test_driver_dor_android](https://github.com/moregenious/Test_driver_dor_android)
+
+---
 1. **REST API & Backend** (FastAPI, Python, Pydantic v2, потокобезопасное хранилище с защитой от дублей).
 2. **Мобильное веб-приложение** (адаптивный интерфейс в виде кассового термочека, быстрый ввод, жесты свайпа).
 3. **Нативное iOS-приложение** в папке `ios/` (полноценный проект для **Xcode / SwiftUI** с поддержкой системного меню **Share Sheet**, **Taptic Engine** тактильного отклика и офлайн-бандла).
